@@ -17,7 +17,7 @@ form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
-section, summary, time, mark, audio, video {
+section, summary, time, mark, audio, video{
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -35,6 +35,9 @@ body {
 
 ol, ul {
 	list-style: none;
+}
+a.mylink{
+	color: #5ebee2;
 }
 
 blockquote, q {
@@ -115,6 +118,7 @@ input, select, textarea {
 		text-decoration: none;
 	}
 
+	}
 		a:hover {
 			border-bottom-color: transparent;
 			color: #5ebee2 !important;
@@ -2767,14 +2771,19 @@ input, select, textarea {
 			left: 0;
 			padding: 2em;
 			width: 100%;
+
+			
 		}
 
 			#header > footer .icons {
-				margin: 0;
+				margin: -15px 0 0 0  ;
+				
 			}
 
 				#header > footer .icons li a {
 					color: #ffffff;
+					
+					
 				}
 
 		#header > nav {
@@ -2782,18 +2791,21 @@ input, select, textarea {
 			-webkit-flex-grow: 1;
 			-ms-flex-grow: 1;
 			flex-grow: 1;
+			
 		}
 
 			#header > nav ul {
 				list-style: none;
 				margin: 0;
 				padding: 0;
+				
 			}
 
 				#header > nav ul li {
 					border-top: solid 2px #063c5c;
 					display: block;
 					padding: 0;
+					
 				}
 
 					#header > nav ul li a {
@@ -2806,15 +2818,18 @@ input, select, textarea {
 						display: block;
 						padding: 0.85em 0;
 						text-decoration: none;
+						
 					}
 
 						#header > nav ul li a.active {
 							background: #fff;
 							color: #5ebee2 !important;
+							
 						}
 
 					#header > nav ul li:first-child {
-						border-top: 0;
+						border-top: -20;
+						
 					}
 
 /* Wrapper */
